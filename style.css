@@ -88,3 +88,29 @@ footer {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
 }
+/* Estilização das Imagens do Blog */
+.blog-image {
+    margin: 35px 0;
+    text-align: center;
+}
+
+.blog-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    filter: brightness(0.9); /* Dá um tom mais fechado e sofisticado */
+    transition: filter 0.3s ease;
+}
+
+.blog-image img:hover {
+    filter: brightness(1);
+}
+
+.blog-image figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
